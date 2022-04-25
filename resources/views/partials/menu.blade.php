@@ -10,11 +10,11 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route("restaurant.create") }}">
                     <i class="fa fa-plus">
 
                     </i>
-                    {{ trans('global.add.restaurant') }}
+                    {{ trans('global.restaurant.title') }}
                 </a>
             </li>
             @can('user_management_access')

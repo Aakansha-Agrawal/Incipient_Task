@@ -21,3 +21,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 
     Route::resource('users', 'UsersController');
 });
+Route::resource('restaurant', 'RestaurantController');
+
+Route::delete('restaurant/destroy', 'RestaurantController@massDestroy')->name('restaurant.massDestroy');
+
+// Route::get('restaurantadd', 'RestaurantController@add')->name('restaurant.add');
+// Route::post('restaurantadd', 'RestaurantController@ajaxRequestPost')->name('restaurant.submit');

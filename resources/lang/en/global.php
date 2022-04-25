@@ -333,4 +333,26 @@ return [
             'deleted_at_helper' => '',
         ],
     ],
+
+    //adding globals for restaurant
+    'restaurant'                       => [
+        'title'          => 'Add Restaurant',
+        'title_singular' => 'Add Restaurant',
+        'fields'         => [
+            'id'                => 'ID',
+            'id_helper'         => '',
+            'name'             => 'Name',
+            'name_helper'      => '',
+            'code'        => 'Code',
+            'code_helper' => '',
+            'email'        => 'Email',
+            'email_helper' => '',
+            'phone'        => 'Phone',
+            'phone_helper' => '',
+            'desc'        => 'desc',
+            'desc_helper' => '',
+            'image'        => 'image',
+            'image_helper' => '',
+        ],
+    ],
 ];
